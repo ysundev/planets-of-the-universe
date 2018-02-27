@@ -7,7 +7,7 @@ layout: default
 		{% for planet in site.data.planet-types %}
 			<li>
 					<a href="#">{{planet.title}}</a>
-					{{planet.content}}
+					{{planet.content | markdownify}}
 			</li>
 		{% endfor %}
 	</ol>
