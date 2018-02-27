@@ -2,6 +2,17 @@
 layout: default
 ---
 
+<h2>Types of Planets</h2>
+	<ol>
+		{% for planet in site.categories.planet-type %}
+			<li>
+					<a href="#">{{planet.title}}</a>
+					{{planet.content}}
+			</li>
+		{% endfor %}
+	</ol>
+
+<h2>All Posts</h2>
 	<ul>
 		{% for post in site.posts %}
 		  <li>
