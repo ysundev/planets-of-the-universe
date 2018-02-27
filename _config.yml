@@ -1,2 +1,4 @@
 baseurl: /planets-of-the-universe
-exclude: [README.md]
+exclude: 
+  - README.md
+  - 'codes'
