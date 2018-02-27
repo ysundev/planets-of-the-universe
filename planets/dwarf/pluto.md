@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: planet
 title: Pluto
 meta: Pluto is a large trans-Neptunian object in the Kuiper belt; the second-most-massive dwarf planet known in the Solar System.
 type: dwarf

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: planet
 title: Mercury
 meta: Mercury is the smallest and closest to the Sun of the eight planets in the Solar System.
 type: terrestrial

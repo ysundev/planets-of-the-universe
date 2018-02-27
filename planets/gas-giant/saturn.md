@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: planet
 title: Saturn
 meta: Saturn is the sixth planet from the Sun and the second largest planet in the Solar System, after Jupiter.
 type: gas-giant
