@@ -8,7 +8,7 @@ layout: default
 	<ul>
 		{% for planet in site.data.planet-types %}
 			<li>
-				<a href="{{site.baseurl}}/planets/{{planet.folder}}/">
+				<a href="{{site.baseurl}}/planets/{{planet.folder}}/">{{planet.title}}</a>
 			</li>
 		{% endfor %}
 	</ul>
