@@ -6,17 +6,17 @@ layout: default
 	<ol>
 		{% for planet in site.data.planet-types %}
 			<li>
-					<a href="#">{{planet.title}}</a>
+					<a href="{{site.baseurl}}/planets/{{planet.folder}}/">{{planet.title}}</a>
 					{{planet.content | markdownify}}
 			</li>
 		{% endfor %}
 	</ol>
 
-<h2>All Posts</h2>
+<h2>Recently Discovered Planets</h2>
 	<ul>
-		{% for post in site.posts %}
+		{% for ews in site.categories.recently-discovered limit:2 %}
 		  <li>
-		    <a href="#">{{post.title}}</a>
+		    <a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
 		    <p>{{post.meta}}</p>
 		  </li>
 		{% endfor %}
